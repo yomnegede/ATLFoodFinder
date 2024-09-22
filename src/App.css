@@ -1,0 +1,118 @@
+/* Set global font for the entire app */
+body, html {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%; /* Ensure body and html take full screen height */
+}
+
+/* Styling for the entire page with a green border */
+.container {
+  border: 10px solid green; /* The green border wrapping the entire screen */
+  min-height: 100vh; /* Ensure the container takes the full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Styling for the header section */
+.header {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+
+.header a {
+  font-family: 'Roboto', sans-serif;
+  margin-left: 15px;
+  text-decoration: none;
+  color: green; /* Change text color to green */
+  font-weight: 600;
+}
+
+.header a:hover {
+  color: #006400; /* Darker green on hover */
+}
+
+/* Styling for the main content */
+.main-content {
+  text-align: center;
+  flex-grow: 1; /* Ensure the main content stretches in the container */
+}
+
+.main-content h1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #4CAF50; /* Optional: change the color */
+}
+
+.main-content h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.browse-map-btn {
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.browse-map-btn:hover {
+  background-color: #45a049;
+}
+
+/* Image Section */
+.image-section img {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
+  display: block;
+  margin: 20px auto;
+}
+
+/* Beliefs Section */
+.beliefs-section {
+  font-family: 'Roboto', sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.beliefs-section h3 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: #4CAF50;
+}
+
+.beliefs-section p {
+  font-size: 1rem;
+  color: #333;
+  line-height: 1.6;
+}
+
+.beliefs-section ul {
+  text-align: left;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.beliefs-section li {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.beliefs-section li strong {
+  color: #4CAF50;
+}
