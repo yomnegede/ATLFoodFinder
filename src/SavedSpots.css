@@ -1,0 +1,106 @@
+/* General container for the Saved Spots page */
+.saved-spots-container {
+    padding: 20px;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Styling the header and count of saved items */
+  .saved-spots-header h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #4CAF50;
+    display: inline-block;
+  }
+  
+  .saved-items-count {
+    font-size: 1.2rem;
+    color: #555;
+    margin-left: 10px;
+  }
+  
+  /* Filter bar section */
+  .filter-bar {
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .filter-bar span {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-right: 10px;
+  }
+  
+  .filter-btn {
+    background-color: #f0f0f0;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 0.9rem;
+  }
+  
+  .filter-btn.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .filter-btn:hover {
+    background-color: #45a049;
+    color: white;
+  }
+  
+  /* Styling for the list of saved spots */
+  .spots-list {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .spot-item {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    width: 45%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .spot-item h2 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .spot-details {
+    display: flex;
+    align-items: center;
+  }
+  
+  .spot-image {
+    width: 150px;
+    height: 100px;
+    border-radius: 10px;
+    margin-right: 15px;
+    object-fit: cover;
+  }
+  
+  .spot-info p {
+    margin: 0;
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .details-btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+  }
+  
+  .details-btn:hover {
+    background-color: #45a049;
+  }
+  
